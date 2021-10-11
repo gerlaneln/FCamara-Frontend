@@ -13,7 +13,7 @@ const App = () => {
 
   const agendar = async (agendamento) => {
     try{
-      const be = await axios.post('http://localhost:8080/register', form);
+      const be = await axios.post('https://fcamara-backend.herokuapp.com/register', form);
       if(be.status === 200){
         alert('Agendamento realizado com sucesso. Informe seu e-mail na recepção.');
       }
