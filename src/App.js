@@ -27,7 +27,7 @@ const App = () => {
       <div id="navbar">
         <a href="https://www.fcamara.com.br/"><img id="logo" src="https://magento.fcamara.com.br/wp-content/uploads/2021/01/logo-fcamara-laranja-02-1.png" alt="Retornar para o FCamara" /></a>
         <a href="#middle">Cuidados</a>
-        <a href="#agendar">Agendar</a>
+        <a href="#form">Agendar</a>
       </div>
 
       <div id="header">
@@ -35,7 +35,7 @@ const App = () => {
         <div id="links-header">
           <h1>Agendamentos</h1>
           <p>Nossos escritórios estarão abertos das 8:00 às 18:00. O agendamento é obrigatório.</p>
-          <a id="button-header" href="#agendar">Agendar agora</a>
+          <a id="button-header" href="#form">Agendar agora</a>
         </div>
       </div>
 
